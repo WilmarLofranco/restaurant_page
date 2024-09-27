@@ -227,7 +227,7 @@ header {
     background-color: rgb(255, 255, 255);
     height: 15%;
     width: 100%; 
-    align-items: center;;
+    align-items: center;
     position: sticky;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1)
 
@@ -240,6 +240,12 @@ header > div {
     height: 80%;
     font-size: 1.5rem;
     flex: 1;
+}
+
+span {
+    align-self: center;
+    font-size: 2rem;
+    font-weight: bolder;
 }
 
 nav {
