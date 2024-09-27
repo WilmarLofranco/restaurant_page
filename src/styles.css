@@ -325,3 +325,8 @@ background-repeat: no-repeat;
     grid-column: 3/4;
     grid-row: 2/3;
 }
+
+.homeContainer {
+    display: grid;
+    grid-template-rows: 3fr 2fr 1fr;
+}
