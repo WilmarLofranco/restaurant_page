@@ -33,11 +33,9 @@ const showMenu =  function () {
     menuContainer.appendChild(belly);
 
     content.appendChild(menuContainer);
-
-    menu.removeEventListener("click", showMenu);
 }
 
     menu.addEventListener("click", showMenu);
 
 
-export {menu, showMenu};
+export {content, showMenu};
