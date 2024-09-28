@@ -338,7 +338,7 @@ background-repeat: no-repeat;
 .homeContainer {
     display: grid;
     height: 85vh;
-    grid-template-rows: 3fr 2fr 0.5fr;
+    grid-template-rows: 3.5fr 2fr 0.5fr;
 }
 
 .hero {
