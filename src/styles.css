@@ -332,16 +332,16 @@ background-repeat: no-repeat;
 }
 
 .hero {
-    background-color: lightgray;
+    background-color: gray;
     grid-row: 1/2;
     width: 100%;
     height: 40vh;
-    background-color: lightgray;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: hidden; 
+    overflow: hidden;
+    color: white; 
 }
 
 .hero > p {
@@ -353,8 +353,20 @@ background-repeat: no-repeat;
 
 .location {
     grid-row: 2/3;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
 }
+
+.location > img {
+    margin: 0;
+}
+
 
 .hoursOpen {
     grid-row: 3/4;
+    background-color: gray;
 }
